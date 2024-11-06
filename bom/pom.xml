@@ -1,0 +1,80 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<name>mk-extensible-bom</name>
+
+	<parent>
+		<groupId>org.mk96.extensible</groupId>
+		<artifactId>project</artifactId>
+		<version>1.0.0</version>
+	</parent>
+
+	<artifactId>bom</artifactId>
+	<version>1.0.0</version>
+
+	<packaging>pom</packaging>
+
+	<properties>
+
+		<!-- core -->
+		<core.version>1.0.0</core.version>
+
+		<!-- mapper -->
+		<mapper.version>1.0.0</mapper.version>
+
+		<!-- api -->
+		<api.version>1.0.0</api.version>
+		<api-crud.version>1.0.0</api-crud.version>
+		<api-http.version>1.0.0</api-http.version>
+		<api-http-crud.version>1.0.0</api-http-crud.version>
+
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+
+			<!-- core -->
+			<dependency>
+				<groupId>org.mk96.extensible</groupId>
+				<artifactId>core</artifactId>
+				<version>${core.version}</version>
+
+				
+			</dependency>
+
+			<!-- mapper -->
+			<dependency>
+				<groupId>org.mk96.extensible</groupId>
+				<artifactId>mapper</artifactId>
+				<version>${mapper.version}</version>
+			</dependency>
+
+			<!-- api -->
+			<dependency>
+				<groupId>org.mk96.extensible</groupId>
+				<artifactId>api</artifactId>
+				<version>${api.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.mk96.extensible</groupId>
+				<artifactId>api-crud</artifactId>
+				<version>${api-crud.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.mk96.extensible</groupId>
+				<artifactId>api-http</artifactId>
+				<version>${api-http.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.mk96.extensible</groupId>
+				<artifactId>api-http-crud</artifactId>
+				<version>${api-http-crud.version}</version>
+			</dependency>
+
+		</dependencies>
+	</dependencyManagement>
+
+</project>

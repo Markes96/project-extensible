@@ -1,0 +1,13 @@
+{
+  "bol" : true,
+  "byt" : 1,
+  "shor" : 2,
+  "in" : 3,
+  "lon" : 4,
+  "flo" : 5.0,
+  "doub" : 6.0,
+  "cha" : "A",
+  "stri" : "I'm an String",
+  "date" : "1996-04-22",
+  "dateTime" : "1996-04-22T10:30:00"
+}
