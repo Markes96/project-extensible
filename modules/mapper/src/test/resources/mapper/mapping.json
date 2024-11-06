@@ -1,0 +1,17 @@
+{
+  "name" : "same name",
+  "dstFcName" : "Name Src to name Dst function",
+  "dstStriName" : "Name Src to name Dst string",
+  "conv" : "ConvertedValue",
+  "dstFcConv" : "ConvertedValue",
+  "dstStriConv" : "ConvertedValue",
+  "sub" : {
+    "stri" : "ConvertedValue"
+  },
+  "dstFcSub" : {
+    "stri" : "ConvertedValue"
+  },
+  "dstStriSub" : {
+    "stri" : "ConvertedValue"
+  }
+}
